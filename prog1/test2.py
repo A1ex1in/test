@@ -17,7 +17,7 @@ MNC_MODE      = "auto" # "auto" (2/3 цифры), либо "2" или "3"
 LAC_HEX_WIDTH = 4 # 4 = типично для GSM LAC
 CI_HEX_WIDTH  = 4 # 4 = типично для GSM CI (можно 6)
 # сохранить NGCI/NSAI в CSV (или None, чтобы не сохранять)
-SAVE_CSV      = fr"D:\code\prog1\diff2.csv"
+SAVE_CSV      = fr".\diff2.csv"
 
 # ---------------------------------------------------------------------------------------
 import re
@@ -190,4 +190,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
